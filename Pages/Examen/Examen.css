@@ -1,0 +1,157 @@
+.btnContainer{
+    width: 100%;
+    height: 15vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+body{height: auto;}
+
+.optContainer{
+    width: 100%;
+    justify-content: flex-start;
+    height: auto;
+    padding: 50px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.btnContainer label{
+    font-size: 20px;
+    margin-right: 5vh;
+}
+
+#btnBuscar{
+    width: 30vh;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5vh;
+}
+
+.pregunta{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.titlePregunta{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.titlePregunta label {
+    font-size: 15px;
+ }
+
+.respuesta{
+    background-color: #EE8BE6;
+}
+
+.containerPg {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .containerPg input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffc8fb;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containerPg:hover input ~ .checkmark {
+    background-color: #d1a9ce;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .containerPg input:checked ~ .checkmark {
+    background-color: #EE8BE6;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .containerPg input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .btnContainerFlotante{
+    width: 60vh;
+    height: 30vh;
+    background-color: #FFEEF2;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 3px 13px #0000002e;
+    position: fixed;
+    top: 30vh;
+    display: none;
+  }
+
+  .btnFlotante{ 
+    background-color: #FFC8FB;
+    border-radius: 50px;
+    border: 0px;
+    height: 7vh;
+    width: 46vh;
+    box-shadow: 0px 3px 6px #a9a9a9;
+    margin: 1vh;
+}
+
+.btnFlotante p {
+    font-size: 20px;
+}
+
+#nota{
+    width: 7vh;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#ocultar{
+    width: 20vh;
+    float: left;
+}
+#salir{
+    width: 24vh;
+    float: left;
+    
+}
+
+.contenedorFlotante{
+    width: 80%;
+}
