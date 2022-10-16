@@ -19,6 +19,7 @@ body{height: auto;}
 .btnContainer label{
     font-size: 20px;
     margin-right: 5vh;
+    margin-left: 5vh;
 }
 
 #btnBuscar{
@@ -108,31 +109,34 @@ body{height: auto;}
   }
   
   .btnContainerFlotante{
-    width: 60vh;
-    height: 30vh;
+    width: 30vh;
+    height: 47vh;
     background-color: #FFEEF2;
     border-radius: 50px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     box-shadow: 0px 3px 13px #0000002e;
     position: fixed;
     top: 30vh;
     display: none;
   }
 
-  .btnFlotante{ 
+  .btnFlotante, .btnFlotanteNoInteractuable{ 
     background-color: #FFC8FB;
     border-radius: 50px;
     border: 0px;
     height: 7vh;
-    width: 46vh;
+    width: 20vh;
     box-shadow: 0px 3px 6px #a9a9a9;
     margin: 1vh;
 }
 
-.btnFlotante p {
+
+
+.btnFlotante p, .btnFlotanteNoInteractuable {
     font-size: 20px;
 }
 
@@ -147,11 +151,16 @@ body{height: auto;}
     float: left;
 }
 #salir{
-    width: 24vh;
+    width: 20vh;
     float: left;
+    margin-bottom: 3vh;
     
 }
 
 .contenedorFlotante{
     width: 80%;
+}
+
+#titleAsignatura{
+  width: 20vh;
 }

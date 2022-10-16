@@ -18,10 +18,10 @@
 
     <div class="container">
         <div class="btnContainer">
-            <div>
-                <label for="">Asignatura:</label>
-                <button class="btn" id="titleAsignatura" > <p>Asignatura</p></button>
-            </div>
+          
+          <label for="">Asignatura:</label>
+          <button class="btnNoInteractuable" id="titleAsignatura" > <p>Asignatura</p></button>
+            
            
             
         </div>
@@ -630,19 +630,25 @@
 
         
         <div class="btnContainer">
-            <input type="submit" value="Finalizar" class="btn" id="btnBuscar" onclick="document.getElementById('btnContainerFlotante').style.display = 'flex'"> 
-            
+            <input type="submit" value="Finalizar" class="btn" id="btnBuscar" onclick="finalizar()"> 
+            <script>
+              function finalizar(){
+              document.getElementById('btnContainerFlotante').style.display = 'flex';
+              document.getElementById('btnBuscar').value = 'Mostrar';
+              
+            }
+            </script>
         </div>
     </div>
     
     <div class="btnContainerFlotante" id="btnContainerFlotante">
         <div class="contenedorFlotante">
-            <button class="btnFlotante"> <p>Repetir</p></button>
-            <button class="btnFlotante"> <p>Simular otro</p></button>
+            <a href="../Examen/index.html"><button class="btnFlotante"> <p>Repetir</p></button></a>
+            <a href="../Examen/index.html"><button class="btnFlotante"> <p>Simular otro</p></button></a>
             <button class="btnFlotante" id="ocultar" onclick="document.getElementById('btnContainerFlotante').style.display = 'none'"> <p>Ocultar</p></button>
-            <button class="btnFlotante" id="salir"> <p>Salir</p></button>
+            <a href="../Home/index.html"><button class="btnFlotante" id="salir"> <p>Salir</p></button></a>
         </div>
-        <div><button class="btnFlotante" id="nota"> <p>10</p></button></div>
+        <div><button class="btnFlotanteNoInteractuable" id="nota"> <p>10</p></button></div>
     </div>
 
     <div class="footer"><p>created by: dev3r3nze</p></div>

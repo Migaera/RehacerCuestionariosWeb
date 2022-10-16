@@ -52,15 +52,21 @@
 }
 
 
-.btn{ 
+.btn,.btnNoInteractuable{ 
     background-color: #FFC8FB;
     border-radius: 50px;
     border: 0px;
     height: 10vh;
     width: 40vh;
     box-shadow: 0px 3px 6px #a9a9a9;
+
 }
-.btn p {
+
+.btn:hover, .btnFlotante:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btn p, .btnNoInteractuable p{
     font-size: 20px;
 }
 
