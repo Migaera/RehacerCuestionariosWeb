@@ -7,18 +7,21 @@
     <title>AgregarPregunta</title>
     <link rel="stylesheet" href="../../master.css">
     <link rel="stylesheet" href="AgregarPregunta.css">
+    <script src="cambiarColor.js"></script>
+
 </head>
 <body>
     <div class="header"> 
         <p> Buena suerte <3 </p>
-        <div id="cambiarColor"></div>
+            <div id="cambiarColor" onclick="cambiarColor()"></div>
+
     </div>
 
     <div class="container">
         <div class="btnContainer">
-            <div><button class="btn"> <p>Repetir test</p> </button> </div>
-            <div><button class="btn" id="btnSelected"> <p>Simular examen</p></button></div>
-            <div><button class="btn"> <p>Agregar pregunta</p></button></div>
+            <div><a href="../RepetirTest/index.html"><button class="btn"> <p>Repetir test</p> </button></a> </div>
+        <div><a href="../SimularExamen/index.html"><button class="btn"> <p>Simular examen</p></button></a></div>
+        <div><a href="../AgregarPregunta/index.html"><button class="btn" id="btnSelected"> <p>Agregar pregunta</p></button></a></div>
         </div>
         <div class="optContainer">
             <div>

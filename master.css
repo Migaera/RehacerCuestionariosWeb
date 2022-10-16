@@ -1,6 +1,6 @@
 :root {
     --colorOscuro: #373737;
-    --colorClaro: ##ECECEC;
+    --colorClaro: #ECECEC;
   }
   body{
     background-color: var(--colorOscuro);
