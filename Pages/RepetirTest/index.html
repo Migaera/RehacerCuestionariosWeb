@@ -23,16 +23,16 @@
         <div><a href="../SimularExamen/index.html"><button class="btn"> <p>Simular examen</p></button></a></div>
         <div><a href="../AgregarPregunta/index.html"><button class="btn"> <p>Agregar pregunta</p></button></a></div>
         </div>
-        <form action="../Cuestionario/index.html" method="post"> 
+        
         <div class="optContainer">
             <div>
+            <form action="" id="form">
                 <label for="">Asignatura:</label>
-                <select name="" id="">
+                <select name="" id="asignatura" onchange="Update()">
                     <option value="Diseño de interfaces">Diseño de interfaces</option>
                     <option value="Despliegue de aplicacioes web">Despliegue de aplicacioes web</option>
                     <option value="Entorno servidor">Entorno servidor</option>
                     <option value="Entorno cliente">Entorno cliente</option>
-                    <option value="Ingles">Ingles</option>
                     <option value="Empresa">Empresa</option>
                 </select>
             </div>
@@ -40,8 +40,34 @@
                 <label for="">Tema:</label>
                 <input type="number" max="15">
             </div>
-            <input type="submit" value="Buscar" class="btn" id="btnBuscar">
-        </div></form>
+            <script>
+                function Update(){
+                    let asignatura = document.getElementById("asignatura").value
+                    switch (asignatura){
+                        case "Diseño de interfaces":
+                            document.getElementById("form").action = "../Cuestionario/Interfaces/index.html";
+                            break
+                        case "Despliegue de aplicacioes web":
+                            document.getElementById("form").action = "../Cuestionario/Despliegue/index.html";
+                            break
+                        case "Entorno servidor":
+                            document.getElementById("form").action = "../Cuestionario/Servidor/index.html";
+                            break
+                        case "Entorno cliente":
+                            document.getElementById("form").action = "../Cuestionario/Cliente/index.html";
+                            break
+                        case "Empresa":
+                            document.getElementById("form").action = "../Cuestionario/Empresa/index.html";
+                            break
+                    }
+                }
+                addEventListener("load",function Start(){
+                    Update()
+                })
+            </script>
+            <input type="submit" class="btn" id="btnBuscar" value="Buscar">
+            </form>
+        </div>
     </div>
     
 
