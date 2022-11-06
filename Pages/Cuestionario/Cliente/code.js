@@ -1,18 +1,20 @@
-const respuestasCliente = new Array(2);
+const respuestasCliente = new Array(7);
 for(var i = 0; i < respuestasCliente.length; i++){
-    respuestasCliente[i] = new Array(2)
+    respuestasCliente[i] = new Array(39)
+    
 }
 
-const preguntasCliente = new Array(2)
+const preguntasCliente = new Array(7)
 for(var i = 0; i < preguntasCliente.length; i++){
-    preguntasCliente[i] = new Array(2)
+    preguntasCliente[i] = new Array(9)
 }
 
-const respuestasCorrectasCliente = new Array(2)
 var intCorrectas = []
 var intRespuestas = []
+
+const respuestasCorrectasCliente = new Array(7)
 for(var i = 0; i < respuestasCorrectasCliente.length; i++){
-    respuestasCorrectasCliente[i] = new Array(2)
+    respuestasCorrectasCliente[i] = new Array(9)
 }
 
 //Tema 1
@@ -401,7 +403,8 @@ respuestasCorrectasCliente[6][7]="Podemos consultar y modificar los datos";
 respuestasCorrectasCliente[6][8]="Se ofrece mecanismos especiales para los arrays";
 respuestasCorrectasCliente[6][9]="Se utiliza el método splice";
 
-var tema = 2;
+var tema = 1;
+console.log(tema);
 
 addEventListener("load",function Start(){
     for(var i = 0; i < 10; i++){
