@@ -1,10 +1,10 @@
-const respuestas = new Array(7);
+const respuestas = new Array(8);
 for(var i = 0; i < respuestas.length; i++){
     respuestas[i] = new Array(39)
     
 }
 
-const preguntas = new Array(7)
+const preguntas = new Array(8)
 for(var i = 0; i < preguntas.length; i++){
     preguntas[i] = new Array(9)
 }
@@ -12,7 +12,7 @@ for(var i = 0; i < preguntas.length; i++){
 var intCorrectas = []
 var intRespuestas = []
 
-const respuestasCorrectas = new Array(7)
+const respuestasCorrectas = new Array(8)
 for(var i = 0; i < respuestasCorrectas.length; i++){
     respuestasCorrectas[i] = new Array(9)
 }

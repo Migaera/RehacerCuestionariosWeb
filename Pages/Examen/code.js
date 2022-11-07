@@ -239,7 +239,7 @@ respuestas[4][23]="No están soportados en el lenguaje";
 respuestas[4][24]="Tienen una forma abreviada";
 respuestas[4][25]="No están soportada por el lenguaje";
 respuestas[4][26]="Permiten comparar el valor de tipo";
-respuestas[4][27]="RespNinguna de las anteriores es correctauesta";
+respuestas[4][27]="Ninguna de las anteriores es correcta";
 respuestas[4][28]="No se pueden utilizar en sentencias condicionales";
 respuestas[4][29]="Devuelven verdadero o falso";
 respuestas[4][30]="No se pueden utilizar en los bucles";
@@ -404,16 +404,22 @@ respuestasCorrectas[6][8]="Se ofrece mecanismos especiales para los arrays";
 respuestasCorrectas[6][9]="Se utiliza el método splice";
 
 var tema = 1;
-console.log(tema);
+var newI = 0;
 
 addEventListener("load",function Start(){
-    for(var i = 0; i < 10; i++){
-        document.getElementsByClassName("titlePregunta")[i].innerHTML = preguntas[tema][i];
-        
+    for(var i = 0; i < 30; i++){
+        tema = Math.floor(Math.random()*7)+1
+        document.getElementsByClassName("titlePregunta")[i].innerHTML = preguntas[tema][newI];
+        if(newI == 10)newI= 0
+        newI++;
+        console.log(newI)
     }
+   newI = 2
     for(var i = 2; i < 42; i++){
-        document.getElementsByTagName("label")[i].firstElementChild.innerHTML = respuestas[tema][i-2];
         
+        document.getElementsByTagName("label")[i].firstElementChild.innerHTML = respuestas[tema][newI-2];
+        if(j == 10)newI= 0
+        j++;
     }
     
     var aux = 2;
