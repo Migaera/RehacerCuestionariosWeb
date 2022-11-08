@@ -631,23 +631,16 @@
 
         
         <div class="btnContainer">
-            <input type="submit" value="Finalizar" class="btn" id="btnBuscar" onclick="finalizar()"> 
-            <script>
-              function finalizar(){
-              document.getElementById('btnContainerFlotante').style.display = 'flex';
-              document.getElementById('btnBuscar').value = 'Mostrar';
-              
-            }
-            </script>
+          <input type="submit" value="Finalizar" class="btn" id="btnBuscar" onclick="Finalizar()"> 
+
         </div>
     </div>
     
     <div class="btnContainerFlotante" id="btnContainerFlotante">
         <div class="contenedorFlotante">
-            <a href="../Examen/index.html"><button class="btnFlotante"> <p>Repetir</p></button></a>
             <a href="../Examen/index.html"><button class="btnFlotante"> <p>Simular otro</p></button></a>
             <button class="btnFlotante" id="ocultar" onclick="document.getElementById('btnContainerFlotante').style.display = 'none'"> <p>Ocultar</p></button>
-            <a href="../Home/index.html"><button class="btnFlotante" id="salir"> <p>Salir</p></button></a>
+            <a href="../../index.html"><button class="btnFlotante" id="salir"> <p>Salir</p></button></a>
         </div>
         <div><button class="btnFlotanteNoInteractuable" id="nota"> <p>10</p></button></div>
     </div>

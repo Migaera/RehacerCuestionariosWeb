@@ -9,8 +9,7 @@ for(var i = 0; i < preguntas.length; i++){
     preguntas[i] = new Array(9)
 }
 
-var intCorrectas = []
-var intRespuestas = []
+
 
 const respuestasCorrectas = new Array(8)
 for(var i = 0; i < respuestasCorrectas.length; i++){
@@ -20,7 +19,7 @@ for(var i = 0; i < respuestasCorrectas.length; i++){
 //Tema 1
 respuestas[1][0]= "Forma parte del nivel de red";
 respuestas[1][1]= "Forma parte del nivel de aplicación";
-respuestas[1][2]= "Es más seguro que SSL.";
+respuestas[1][2]= "Es más seguro que SSL";
 respuestas[1][3]= "Ninguna de las anteriores es correcta";
 respuestas[1][4]= "Solo se puede utilizar una capa";
 respuestas[1][5]= "La capa de datos debe estar ligada a la de procesamiento";
@@ -87,7 +86,7 @@ respuestas[2][1]="Puede combinar HTML con otros lenguajes";
 respuestas[2][2]="  Permite la utilización de cualquier conjunto de etiquetas";
 respuestas[2][3]=" Ninguna de las anteriores es correcta";
 respuestas[2][4]="No se puede visualizar en un navegador";
-respuestas[2][5]="No es un lenguaje de marcado.";
+respuestas[2][5]="No es un lenguaje de marcado";
 respuestas[2][6]="Tiene un conjunto de etiquetas cerrado";
 respuestas[2][7]="Es totalmente estándar";
 respuestas[2][8]="La URL";
@@ -158,9 +157,9 @@ respuestas[3][7]="Todas las anteriores son correctas";
 respuestas[3][8]="De programación";
 respuestas[3][9]="De modelado";
 respuestas[3][10]="De Scripting";
-respuestas[3][11]="A y C son correctas.";
+respuestas[3][11]="A y C son correctas";
 respuestas[3][12]="Se realiza siempre el servidor";
-respuestas[3][13]="Se realiza a en el ";
+respuestas[3][13]="Se realiza en el cliente";
 respuestas[3][14]="No puede ser bloqueado";
 respuestas[3][15]="Se requiere un programa externo al navegador web";
 respuestas[3][16]="Siempre hay que indicar el tipo de las variables en su declaración";
@@ -190,19 +189,19 @@ respuestas[3][39]="Ninguna es correcta";
 
 preguntas[3][0]="El lenguaje de programación JavaScript…";
 preguntas[3][1]="Para incluir código JavaScript en una web…";
-preguntas[3][2]="JavaScript es un lenguaje….";
+preguntas[3][2]="JavaScript es un lenguaje…";
 preguntas[3][3]="Al ejecutar JavaScript…";
 preguntas[3][4]="En el lenguaje JavaScript…";
 preguntas[3][5]="El operador de asignación…";
 preguntas[3][6]="La conversión del tipo de datos en JavaScript…";
-preguntas[3][7]="Los comentarios en JavaScript….";
+preguntas[3][7]="Los comentarios en JavaScript…";
 preguntas[3][8]="El lenguaje de programación JavaScript…";
 preguntas[3][9]="En la declaración de la variable en JavaScript…";
 
 respuestasCorrectas[3][0]="Se centra en temas de interacción";
 respuestasCorrectas[3][1]="Todas las anteriores son correctas";
 respuestasCorrectas[3][2]="A y C son correctas";
-respuestasCorrectas[3][3]="Se realiza a en el ";
+respuestasCorrectas[3][3]="Se realiza a en el cliente";
 respuestasCorrectas[3][4]="La declaración de variables no requiere tipo";
 respuestasCorrectas[3][5]="Modifica la parte izquierda";
 respuestasCorrectas[3][6]="Puede requerir intervención del programador";
@@ -284,7 +283,7 @@ respuestas[5][4]="No es estándar";
 respuestas[5][5]="Se puede utilizar desde JavaScript";
 respuestas[5][6]="No permite añadir elementos dinámicamente";
 respuestas[5][7]="Requiere recargar la página para añadir elementos";
-respuestas[5][8]="Requiere de una etiqueta <frameset>";
+respuestas[5][8]="Requiere de una etiqueta '<frameset>";
 respuestas[5][9]="Introduce una opción para no visualizar frames";
 respuestas[5][10]="No puede definir cuerpo de documento en la web principal";
 respuestas[5][11]="Todas las anteriores son correctas";
@@ -319,12 +318,12 @@ respuestas[5][39]="Ninguna de las anteriores es correcta";
 
 preguntas[5][0]="La utilización de frames…";
 preguntas[5][1]="El DOM HTML…";
-preguntas[5][2]="La utilización de frames….";
+preguntas[5][2]="La utilización de frames…";
 preguntas[5][3]="La generación de código HTML…";
 preguntas[5][4]="El DOM HTML…";
 preguntas[5][5]="La modificación de un documento HTML dinámicamente…";
 preguntas[5][6]="Las funciones nativas de JavaScript…";
-preguntas[5][7]="En JavaScript….";
+preguntas[5][7]="En JavaScript…";
 preguntas[5][8]="La interacción con el navegador…";
 preguntas[5][9]="El BOM HTML…";
 
@@ -382,15 +381,15 @@ respuestas[6][38]="Se utiliza el método pop";
 respuestas[6][39]="Ninguna de las anteriores es correcta";
 
 preguntas[6][0]="El lenguaje de programación JavaScript…";
-preguntas[6][1]="La orientación objetos en JavaScript...";
-preguntas[6][2]="Los objetos en JavaScript...";
-preguntas[6][3]="Los objetos en JavaScript...";
-preguntas[6][4]="Al utilizar un array en JavaScript...";
-preguntas[6][5]="Para consultar la longitud de un array en JavaScript...";
-preguntas[6][6]="El API de JavaScript para la utilización de listas...";
-preguntas[6][7]="Al utilizar una lista en JavaScript...";
-preguntas[6][8]="Para iterar sobre una lista en JavaScript...";
-preguntas[6][9]="Para obtener una porción de un array...";
+preguntas[6][1]="La orientación objetos en JavaScript..";
+preguntas[6][2]="Los objetos en JavaScript..";
+preguntas[6][3]="Los objetos en JavaScript..";
+preguntas[6][4]="Al utilizar un array en JavaScript..";
+preguntas[6][5]="Para consultar la longitud de un array en JavaScript..";
+preguntas[6][6]="El API de JavaScript para la utilización de listas..";
+preguntas[6][7]="Al utilizar una lista en JavaScript..";
+preguntas[6][8]="Para iterar sobre una lista en JavaScript..";
+preguntas[6][9]="Para obtener una porción de un array..";
 
 respuestasCorrectas[6][0]="Posee objetos nativos";
 respuestasCorrectas[6][1]="Funciona mediante clave-valor";
@@ -403,42 +402,125 @@ respuestasCorrectas[6][7]="Podemos consultar y modificar los datos";
 respuestasCorrectas[6][8]="Se ofrece mecanismos especiales para los arrays";
 respuestasCorrectas[6][9]="Se utiliza el método splice";
 
+//Tema x
+respuestas[7][0]="RespuestaCorrecta";
+respuestas[7][1]="Respuesta";
+respuestas[7][2]="Respuesta";
+respuestas[7][3]="Respuesta";
+respuestas[7][4]="RespuestaCorrecta";
+respuestas[7][5]="Respuesta";
+respuestas[7][6]="Respuesta";
+respuestas[7][7]="Respuesta";
+respuestas[7][8]="RespuestaCorrecta";
+respuestas[7][9]="Respuesta";
+respuestas[7][10]="Respuesta";
+respuestas[7][11]="Respuesta";
+respuestas[7][12]="RespuestaCorrecta";
+respuestas[7][13]="Respuesta";
+respuestas[7][14]="Respuesta";
+respuestas[7][15]="Respuesta";
+respuestas[7][16]="RespuestaCorrecta";
+respuestas[7][17]="Respuesta";
+respuestas[7][18]="Respuesta";
+respuestas[7][19]="Respuesta";
+respuestas[7][20]="RespuestaCorrecta";
+respuestas[7][21]="Respuesta";
+respuestas[7][22]="Respuesta";
+respuestas[7][23]="Respuesta";
+respuestas[7][24]="RespuestaCorrecta";
+respuestas[7][25]="Respuesta";
+respuestas[7][26]="Respuesta";
+respuestas[7][27]="Respuesta";
+respuestas[7][28]="RespuestaCorrecta";
+respuestas[7][29]="Respuesta";
+respuestas[7][30]="Respuesta";
+respuestas[7][31]="Respuesta";
+respuestas[7][32]="RespuestaCorrecta";
+respuestas[7][33]="Respuesta";
+respuestas[7][34]="Respuesta";
+respuestas[7][35]="Respuesta";
+respuestas[7][36]="RespuestaCorrecta";
+respuestas[7][37]="Respuesta";
+respuestas[7][38]="Respuesta";
+respuestas[7][39]="Respuesta";
+
+preguntas[7][0]="Pregunta";
+preguntas[7][1]="Pregunta";
+preguntas[7][2]="Pregunta";
+preguntas[7][3]="Pregunta";
+preguntas[7][4]="Pregunta";
+preguntas[7][5]="Pregunta";
+preguntas[7][6]="Pregunta";
+preguntas[7][7]="Pregunta";
+preguntas[7][8]="Pregunta";
+preguntas[7][9]="Pregunta";
+
+respuestasCorrectas[7][0]="RespuestaCorrecta";
+respuestasCorrectas[7][2]="RespuestaCorrecta";
+respuestasCorrectas[7][1]="RespuestaCorrecta";
+respuestasCorrectas[7][3]="RespuestaCorrecta";
+respuestasCorrectas[7][4]="RespuestaCorrecta";
+respuestasCorrectas[7][5]="RespuestaCorrecta";
+respuestasCorrectas[7][6]="RespuestaCorrecta";
+respuestasCorrectas[7][7]="RespuestaCorrecta";
+respuestasCorrectas[7][8]="RespuestaCorrecta";
+respuestasCorrectas[7][9]="RespuestaCorrecta";
+
 var tema = 1;
 var newI = 0;
+var newJ = 1;
+var aux = 0;
+var arrTemas = []
+
+var intCorrectas = []
+var intRespuestas = []
 
 addEventListener("load",function Start(){
     for(var i = 0; i < 30; i++){
-        tema = Math.floor(Math.random()*7)+1
-        document.getElementsByClassName("titlePregunta")[i].innerHTML = preguntas[tema][newI];
-        if(newI == 10)newI= 0
-        newI++;
-        console.log(newI)
-    }
-   newI = 2
-    for(var i = 2; i < 42; i++){
-        
-        document.getElementsByTagName("label")[i].firstElementChild.innerHTML = respuestas[tema][newI-2];
-        if(j == 10)newI= 0
-        j++;
-    }
-    
-    var aux = 2;
-    for(var i = 2; i < 12; i++){
-        for(var j = aux; j < 4+aux; j++){
-            if(document.getElementsByTagName("label")[j].firstElementChild.innerHTML == respuestasCorrectas[tema][i-2]){
-                document.getElementsByTagName("label")[j].childNodes[2].value = "Correcta"
-                if(aux < 3) {
-                    intCorrectas.push(j-1)
-                }
-                else intCorrectas.push(j-4*(i-2)-1)
-                
-                
-
-            }
-            //console.log((j-2) + "-" + (i-2) + ":" + document.getElementsByTagName("label")[j].firstElementChild.innerHTML + '-' + respuestasCorrectas[tema][i-2])
-
+        if (newI == 9){
+            newI = 1
+            
         }
-
+        else newI++;
+        tema = Math.floor(Math.random()*7)+1
+        arrTemas.push(tema)
+        document.getElementsByClassName("titlePregunta")[i].innerHTML = i+1 + ". " + preguntas[tema][newI];
+        
+        
+        
+        for(var j = 1; j < 5; j++){
+            document.getElementsByTagName("label")[newJ].firstElementChild.innerHTML = respuestas[tema][(newI*4)+j-1];
+            newJ++;
+            
+        }
+        
+    }
+    newI = 2
+    
+    
+    newJ = 1
+    for(var i = 2; i < 32; i++){
+        for(var k = aux; k < 4+aux; k++){
+           //console.log(respuestasCorrectas[arrTemas[i-2]][newI-1]);
+            if(document.getElementsByTagName("label")[newJ].firstElementChild.innerHTML == respuestasCorrectas[arrTemas[i-2]][newI-1]){
+                document.getElementsByTagName("label")[newJ].childNodes[2].value = "Correcta"
+                if(aux < 3) {
+                    intCorrectas.push(newJ)
+                    //console.log(newJ)
+                }
+                else {
+                    intCorrectas.push(newJ - 4*(i-2))
+                    //console.log(newJ - 4*(i-2))
+                }
+            }
+            newJ++
+            //console.log((k-2) + "-" + (i-2) + ":" + document.getElementsByTagName("label")[k].firstElementChild.innerHTML + '-' + respuestasCorrectas[tema][i-2])
+        }
+        if (newI == 10){
+            newI = 2
+            
+        }
+        else newI++;
         aux+=4
         
     }
@@ -453,13 +535,20 @@ function Select(a,b){
 function Finalizar(){
     document.getElementById('btnContainerFlotante').style.display = 'flex'
     var nota = 0;
-    for(var i = 0; i < 10;i++){
+    for(var i = 0; i < 30;i++){
         
-        if(intRespuestas[i] == intCorrectas[i]){
-            nota++;
+        if(intRespuestas[i] == intCorrectas[i] && intRespuestas[i] != null){
+            nota+= 0.333;
+            console.log("acierto")
+            
+        }else if(intRespuestas[i] != intCorrectas[i] && intRespuestas[i] != null) {
+            nota -= 0.111
+            console.log("fallo")
+        }else{
+            console.log("saltada")
         }
     }
-    document.getElementById("nota").innerHTML = "<p>" + nota + "</p>"
+    document.getElementById("nota").innerHTML = "<p>" + Math.floor(nota*100)/100 + "</p>"
     document.getElementById('btnBuscar').value = 'Mostrar';
 }
 
