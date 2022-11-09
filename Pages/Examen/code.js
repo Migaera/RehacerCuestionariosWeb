@@ -13,7 +13,7 @@ for(var i = 0; i < preguntasClientelength; i++){
 
 const respuestasCorrectas = new Array(8)
 for(var i = 0; i < respuestasCorrectas.length; i++){
-    respuestasCorrectasCliente[i] = new Array(9)
+    respuestasClienteCorrectas[i] = new Array(9)
 }
 
 //Tema 1
@@ -69,16 +69,16 @@ preguntasCliente[1][7] = "Al realizar una petición GET…"
 preguntasCliente[1][8] = "El nivel de red…"
 preguntasCliente[1][9] = "SSH se utiliza…"
 
-respuestasCorrectasCliente[1][0]= "Forma parte del nivel de aplicación";
-respuestasCorrectasCliente[1][1]= "Puede requerir máquinas con altas especificaciones hardware";
-respuestasCorrectasCliente[1][2]= "Permite definir una dirección de una página web";
-respuestasCorrectasCliente[1][3]= "Se centra en el envío de peticiones del ";
-respuestasCorrectasCliente[1][4]= "Se introduce una capa de seguridad adicional a HTTP";
-respuestasCorrectasCliente[1][5]= "El front-end se refiere al ";
-respuestasCorrectasCliente[1][6]= "Identifica a un recurso en la red sin ninguna duda";
-respuestasCorrectasCliente[1][7]= "Ninguna de las anteriores es correcta";
-respuestasCorrectasCliente[1][8]= "Incluye el protocolo IP";
-respuestasCorrectasCliente[1][9]= "Para gestionar una máquina remota";
+respuestasClienteCorrectas[1][0]= "Forma parte del nivel de aplicación";
+respuestasClienteCorrectas[1][1]= "Puede requerir máquinas con altas especificaciones hardware";
+respuestasClienteCorrectas[1][2]= "Permite definir una dirección de una página web";
+respuestasClienteCorrectas[1][3]= "Se centra en el envío de peticiones del ";
+respuestasClienteCorrectas[1][4]= "Se introduce una capa de seguridad adicional a HTTP";
+respuestasClienteCorrectas[1][5]= "El front-end se refiere al ";
+respuestasClienteCorrectas[1][6]= "Identifica a un recurso en la red sin ninguna duda";
+respuestasClienteCorrectas[1][7]= "Ninguna de las anteriores es correcta";
+respuestasClienteCorrectas[1][8]= "Incluye el protocolo IP";
+respuestasClienteCorrectas[1][9]= "Para gestionar una máquina remota";
 
 //Tema 2
 respuestasCliente[2][0]=" Únicamente permite la utilización del lenguaje HTML";
@@ -133,16 +133,16 @@ preguntasCliente[2][7]="En HTML las etiquetas pueden ser…";
 preguntasCliente[2][8]="Un documento HTML…";
 preguntasCliente[2][9]="En el desarrollo web XML…";
 
-respuestasCorrectasCliente[2][0]="Puede combinar HTML con otros lenguajes";
-respuestasCorrectasCliente[2][1]="Tiene un conjunto de etiquetas cerrado";
-respuestasCorrectasCliente[2][2]="Gestor de almacenamiento";
-respuestasCorrectasCliente[2][3]="Ninguna de las anteriores correcta";
-respuestasCorrectasCliente[2][4]="Se puede utilizar HTML";
-respuestasCorrectasCliente[2][5]="JSON se utiliza para intercambiar datos";
-respuestasCorrectasCliente[2][6]="Facilita el desarrollo web en ";
-respuestasCorrectasCliente[2][7]="Ninguna de las anteriores es correcta";
-respuestasCorrectasCliente[2][8]="Tiene cabecera y cuerpo";
-respuestasCorrectasCliente[2][9]="Posee un conjunto de tecnologías a su alrededor";
+respuestasClienteCorrectas[2][0]="Puede combinar HTML con otros lenguajes";
+respuestasClienteCorrectas[2][1]="Tiene un conjunto de etiquetas cerrado";
+respuestasClienteCorrectas[2][2]="Gestor de almacenamiento";
+respuestasClienteCorrectas[2][3]="Ninguna de las anteriores correcta";
+respuestasClienteCorrectas[2][4]="Se puede utilizar HTML";
+respuestasClienteCorrectas[2][5]="JSON se utiliza para intercambiar datos";
+respuestasClienteCorrectas[2][6]="Facilita el desarrollo web en ";
+respuestasClienteCorrectas[2][7]="Ninguna de las anteriores es correcta";
+respuestasClienteCorrectas[2][8]="Tiene cabecera y cuerpo";
+respuestasClienteCorrectas[2][9]="Posee un conjunto de tecnologías a su alrededor";
 
 
 //Tema 3
@@ -198,16 +198,16 @@ preguntasCliente[3][7]="Los comentarios en JavaScript…";
 preguntasCliente[3][8]="El lenguaje de programación JavaScript…";
 preguntasCliente[3][9]="En la declaración de la variable en JavaScript…";
 
-respuestasCorrectasCliente[3][0]="Se centra en temas de interacción";
-respuestasCorrectasCliente[3][1]="Todas las anteriores son correctas";
-respuestasCorrectasCliente[3][2]="A y C son correctas";
-respuestasCorrectasCliente[3][3]="Se realiza a en el cliente";
-respuestasCorrectasCliente[3][4]="La declaración de variables no requiere tipo";
-respuestasCorrectasCliente[3][5]="Modifica la parte izquierda";
-respuestasCorrectasCliente[3][6]="Puede requerir intervención del programador";
-respuestasCorrectasCliente[3][7]="Se permiten comentario de línea y de bloque";
-respuestasCorrectasCliente[3][8]="Puede utilizarse en contexto diferentes al web";
-respuestasCorrectasCliente[3][9]="Se puede comenzar con un _";
+respuestasClienteCorrectas[3][0]="Se centra en temas de interacción";
+respuestasClienteCorrectas[3][1]="Todas las anteriores son correctas";
+respuestasClienteCorrectas[3][2]="A y C son correctas";
+respuestasClienteCorrectas[3][3]="Se realiza a en el cliente";
+respuestasClienteCorrectas[3][4]="La declaración de variables no requiere tipo";
+respuestasClienteCorrectas[3][5]="Modifica la parte izquierda";
+respuestasClienteCorrectas[3][6]="Puede requerir intervención del programador";
+respuestasClienteCorrectas[3][7]="Se permiten comentario de línea y de bloque";
+respuestasClienteCorrectas[3][8]="Puede utilizarse en contexto diferentes al web";
+respuestasClienteCorrectas[3][9]="Se puede comenzar con un _";
 
 
 //Tema 4
@@ -263,16 +263,16 @@ preguntasCliente[4][7]="Los operadores lógicos…";
 preguntasCliente[4][8]="Las operaciones a nivel de bit…";
 preguntasCliente[4][9]="La sentencia if…";
 
-respuestasCorrectasCliente[4][0]="Ninguna de las anteriores es correcta";
-respuestasCorrectasCliente[4][1]="if…else";
-respuestasCorrectasCliente[4][2]="Se separan utilizando ;";
-respuestasCorrectasCliente[4][3]="Sólo requiere un conjunto de sentencias";
-respuestasCorrectasCliente[4][4]="Pueden tener caracteres especiales";
-respuestasCorrectasCliente[4][5]="Tienen una forma abreviada";
-respuestasCorrectasCliente[4][6]="Permiten comparar el valor de tipo";
-respuestasCorrectasCliente[4][7]="Devuelven verdadero o falso";
-respuestasCorrectasCliente[4][8]="Ofrecen un operador AND";
-respuestasCorrectasCliente[4][9]="Es una sentencia de condición";
+respuestasClienteCorrectas[4][0]="Ninguna de las anteriores es correcta";
+respuestasClienteCorrectas[4][1]="if…else";
+respuestasClienteCorrectas[4][2]="Se separan utilizando ;";
+respuestasClienteCorrectas[4][3]="Sólo requiere un conjunto de sentencias";
+respuestasClienteCorrectas[4][4]="Pueden tener caracteres especiales";
+respuestasClienteCorrectas[4][5]="Tienen una forma abreviada";
+respuestasClienteCorrectas[4][6]="Permiten comparar el valor de tipo";
+respuestasClienteCorrectas[4][7]="Devuelven verdadero o falso";
+respuestasClienteCorrectas[4][8]="Ofrecen un operador AND";
+respuestasClienteCorrectas[4][9]="Es una sentencia de condición";
 
 //Tema 5
 respuestasCliente[5][0]="Se puede visualizar en todas las versiones de HTML";
@@ -327,16 +327,16 @@ preguntasCliente[5][7]="En JavaScript…";
 preguntasCliente[5][8]="La interacción con el navegador…";
 preguntasCliente[5][9]="El BOM HTML…";
 
-respuestasCorrectasCliente[5][0]="No está soportado en HTML5";
-respuestasCorrectasCliente[5][1]="Se puede utilizar desde JavaScript";
-respuestasCorrectasCliente[5][2]="Todas las anteriores son correctas";
-respuestasCorrectasCliente[5][3]="Suele requerir la detección de un contenedor";
-respuestasCorrectasCliente[5][4]="Representa la web como un árbol";
-respuestasCorrectasCliente[5][5]="Todas las anteriores son correctas";
-respuestasCorrectasCliente[5][6]="Son fijas y no pueden ser modificadas";
-respuestasCorrectasCliente[5][7]="Existen objetos nativos";
-respuestasCorrectasCliente[5][8]="Se puede realizar a través de JavaScript";
-respuestasCorrectasCliente[5][9]="Permite la interacción con la pantalla del usuario";
+respuestasClienteCorrectas[5][0]="No está soportado en HTML5";
+respuestasClienteCorrectas[5][1]="Se puede utilizar desde JavaScript";
+respuestasClienteCorrectas[5][2]="Todas las anteriores son correctas";
+respuestasClienteCorrectas[5][3]="Suele requerir la detección de un contenedor";
+respuestasClienteCorrectas[5][4]="Representa la web como un árbol";
+respuestasClienteCorrectas[5][5]="Todas las anteriores son correctas";
+respuestasClienteCorrectas[5][6]="Son fijas y no pueden ser modificadas";
+respuestasClienteCorrectas[5][7]="Existen objetos nativos";
+respuestasClienteCorrectas[5][8]="Se puede realizar a través de JavaScript";
+respuestasClienteCorrectas[5][9]="Permite la interacción con la pantalla del usuario";
 
 //Tema 6
 respuestasCliente[6][0]="No permite crear objetos";
@@ -391,16 +391,16 @@ preguntasCliente[6][7]="Al utilizar una lista en JavaScript..";
 preguntasCliente[6][8]="Para iterar sobre una lista en JavaScript..";
 preguntasCliente[6][9]="Para obtener una porción de un array..";
 
-respuestasCorrectasCliente[6][0]="Posee objetos nativos";
-respuestasCorrectasCliente[6][1]="Funciona mediante clave-valor";
-respuestasCorrectasCliente[6][2]="Permiten la invocación de métodos";
-respuestasCorrectasCliente[6][3]="Pueden tener métodos y propiedades";
-respuestasCorrectasCliente[6][4]="Podemos utilizar un objeto nativo";
-respuestasCorrectasCliente[6][5]="Se utiliza el atributo length";
-respuestasCorrectasCliente[6][6]="Posee métodos de ordenación ascendente y descendente";
-respuestasCorrectasCliente[6][7]="Podemos consultar y modificar los datos";
-respuestasCorrectasCliente[6][8]="Se ofrece mecanismos especiales para los arrays";
-respuestasCorrectasCliente[6][9]="Se utiliza el método splice";
+respuestasClienteCorrectas[6][0]="Posee objetos nativos";
+respuestasClienteCorrectas[6][1]="Funciona mediante clave-valor";
+respuestasClienteCorrectas[6][2]="Permiten la invocación de métodos";
+respuestasClienteCorrectas[6][3]="Pueden tener métodos y propiedades";
+respuestasClienteCorrectas[6][4]="Podemos utilizar un objeto nativo";
+respuestasClienteCorrectas[6][5]="Se utiliza el atributo length";
+respuestasClienteCorrectas[6][6]="Posee métodos de ordenación ascendente y descendente";
+respuestasClienteCorrectas[6][7]="Podemos consultar y modificar los datos";
+respuestasClienteCorrectas[6][8]="Se ofrece mecanismos especiales para los arrays";
+respuestasClienteCorrectas[6][9]="Se utiliza el método splice";
 
 //Tema x
 respuestasCliente[7][0]="RespuestaCorrecta";
@@ -455,16 +455,16 @@ preguntasCliente[7][7]="Pregunta";
 preguntasCliente[7][8]="Pregunta";
 preguntasCliente[7][9]="Pregunta";
 
-respuestasCorrectasCliente[7][0]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][2]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][1]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][3]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][4]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][5]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][6]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][7]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][8]="RespuestaCorrecta";
-respuestasCorrectasCliente[7][9]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][0]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][2]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][1]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][3]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][4]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][5]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][6]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][7]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][8]="RespuestaCorrecta";
+respuestasClienteCorrectas[7][9]="RespuestaCorrecta";
 
 var tema = 1;
 var newI = 0;
@@ -501,8 +501,8 @@ addEventListener("load",function Start(){
     newJ = 1
     for(var i = 2; i < 32; i++){
         for(var k = aux; k < 4+aux; k++){
-           //console.log(respuestasCorrectasCliente[arrTemas[i-2]][newI-1]);
-            if(document.getElementsByTagName("label")[newJ].firstElementChild.innerHTML == respuestasCorrectasCliente[arrTemas[i-2]][newI-1]){
+           //console.log(respuestasClienteCorrectas[arrTemas[i-2]][newI-1]);
+            if(document.getElementsByTagName("label")[newJ].firstElementChild.innerHTML == respuestasClienteCorrectas[arrTemas[i-2]][newI-1]){
                 document.getElementsByTagName("label")[newJ].childNodes[2].value = "Correcta"
                 if(aux < 3) {
                     intCorrectas.push(newJ)
@@ -514,7 +514,7 @@ addEventListener("load",function Start(){
                 }
             }
             newJ++
-            //console.log((k-2) + "-" + (i-2) + ":" + document.getElementsByTagName("label")[k].firstElementChild.innerHTML + '-' + respuestasCorrectasCliente[tema][i-2])
+            //console.log((k-2) + "-" + (i-2) + ":" + document.getElementsByTagName("label")[k].firstElementChild.innerHTML + '-' + respuestasClienteCorrectas[tema][i-2])
         }
         if (newI == 10){
             newI = 2
@@ -607,14 +607,14 @@ preguntasCliente[x][7]="Pregunta";
 preguntasCliente[x][8]="Pregunta";
 preguntasCliente[x][9]="Pregunta";
 
-respuestasCorrectasCliente[x][0]="Respuesta";
-respuestasCorrectasCliente[x][1]="Respuesta";
-respuestasCorrectasCliente[x][2]="Respuesta";
-respuestasCorrectasCliente[x][3]="Respuesta";
-respuestasCorrectasCliente[x][4]="Respuesta";
-respuestasCorrectasCliente[x][5]="Respuesta";
-respuestasCorrectasCliente[x][6]="Respuesta";
-respuestasCorrectasCliente[x][7]="Respuesta";
-respuestasCorrectasCliente[x][8]="Respuesta";
-respuestasCorrectasCliente[x][9]="Respuesta";
+respuestasClienteCorrectas[x][0]="Respuesta";
+respuestasClienteCorrectas[x][1]="Respuesta";
+respuestasClienteCorrectas[x][2]="Respuesta";
+respuestasClienteCorrectas[x][3]="Respuesta";
+respuestasClienteCorrectas[x][4]="Respuesta";
+respuestasClienteCorrectas[x][5]="Respuesta";
+respuestasClienteCorrectas[x][6]="Respuesta";
+respuestasClienteCorrectas[x][7]="Respuesta";
+respuestasClienteCorrectas[x][8]="Respuesta";
+respuestasClienteCorrectas[x][9]="Respuesta";
     */
